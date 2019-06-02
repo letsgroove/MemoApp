@@ -6,7 +6,7 @@ class BodyText extends React.Component {
     return (
       <View>
         <Text style={styles.text}>
-          (this.props.children)
+          {this.props.children}
         </Text>
       </View>
     );
